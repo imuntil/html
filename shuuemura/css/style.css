@@ -11,6 +11,16 @@ html, body {
     font-family: Microsoft YaHei, Arial;
     font-size: 16px;
 }
+a {
+    text-decoration: none;
+    border: 0 none;
+    outline: 0 none;
+
+    /*touch-action: pan-x pan-y;*/
+    /*-webkit-user-select: none;*/
+    /*-webkit-user-drag: none;*/
+    /*-webkit-tap-highlight-color: rgba(0, 0, 0, 0);*/
+}
 img {
     border: 0 none;
     display: block;
@@ -112,3 +122,92 @@ div.icons-right {
     color: #fff;
 }
 
+.p2-g-header {
+    width: 90%;
+    margin: 7% auto 3%;
+    overflow: hidden;
+}
+.p2-g-header .left-part {
+    width: 50%;
+    float: left;
+}
+.left-part>a{
+    width: 39%;
+    display: inline-block;
+    vertical-align: middle;
+}
+.left-part>span {
+    vertical-align: middle;
+    display: inline-block;
+}
+.right-part {
+    width: 45%;
+    float: right;
+}
+.page-2 .g-logo {
+    width: 48%;
+    margin: 1% auto 0%;
+    position: relative;
+}
+.video-container {
+    width: 90%;
+    height: 30%;
+    background-color: #ffffff;
+    margin: 5% auto 3%;
+}
+.time-g {
+    width: 90%;
+    margin: 1% auto 3%;
+    position: relative;
+    overflow: hidden;
+}
+.time-g .audio-left {
+    float: left;
+}
+.time-g .audio-right {
+    float: right;
+}
+.time-g h4 {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    left: 0;
+    top: 0;
+    color: #444;
+}
+.time-g p {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    left: 0;
+    bottom: 0;
+    font-size: 20px;
+}
+.time-g p b {
+    font-size: 12px;
+}
+.page-2 .phone {
+    width: 60%;
+    margin: 0 auto;
+    color: #999;
+    border: none;
+    display: block;
+    height: 16px;
+    padding: 8px;
+    font-size: 16px;
+}
+.page-2 .confirm-btn{
+    width: 25%;
+    margin: 3% auto;
+    display: block;
+    height: 28px;
+    background-color: #8aa09b;
+    text-align: center;
+    line-height: 28px;
+    color: #ddd;
+}
+a.arrow {
+    width: 5%;
+    display: block;
+    margin: 6% auto 0;
+}
