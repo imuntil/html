@@ -144,7 +144,8 @@ div.icons-right {
     width: 45%;
     float: right;
 }
-.page-2 .g-logo {
+.page-2 .g-logo,
+.page-3 .g-logo{
     width: 48%;
     margin: 1% auto 0%;
     position: relative;
@@ -196,7 +197,8 @@ div.icons-right {
     padding: 8px;
     font-size: 16px;
 }
-.page-2 .confirm-btn{
+.page-2 .confirm-btn,
+.page-3 .confirm-btn{
     width: 25%;
     margin: 3% auto;
     display: block;
@@ -210,4 +212,48 @@ a.arrow {
     width: 5%;
     display: block;
     margin: 6% auto 0;
+}
+.gallery {
+    width: 85%;
+    margin: 4% auto;
+    position: relative;
+}
+.ga-content {
+    position: absolute;
+    width: 80%;
+    left: 10%;
+    top: 0;
+    overflow: hidden;
+}
+.ga-content>img {
+    margin: 5% auto;
+}
+.ga-content ul {
+    width: 100%;
+    height: 100px;
+    margin: 0 auto;
+}
+.ga-content li {
+    color: #ffffff;
+    border-bottom: 1px solid #fff;
+    padding: 4% 0;
+    text-align: center;
+    position: absolute;
+    width: 100%;
+}
+.page-3 h2 {
+    font-size: 19px;
+    width: 100%;
+    text-align: center;
+    color: #555555;
+}
+.page-3 h4 {
+    font-size: 11px;
+    width: 100%;
+    text-align: center;
+    color: #555555;
+}
+.text-area {
+    width: 100%;
+    margin: 3% auto;
 }
