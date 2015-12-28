@@ -145,7 +145,8 @@ div.icons-right {
     float: right;
 }
 .page-2 .g-logo,
-.page-3 .g-logo{
+.page-3 .g-logo,
+.page-4 .g-logo{
     width: 48%;
     margin: 1% auto 0%;
     position: relative;
@@ -256,4 +257,104 @@ a.arrow {
 .text-area {
     width: 100%;
     margin: 3% auto;
+}
+
+.product-area,
+.producer-info  {
+    width:85%;
+    margin: 5% auto;
+    position: relative;
+}
+.product-area>a {
+    position: absolute;
+    width: 12%;
+}
+.product-area .plus-1 {
+    left: 22%;
+    top: 20%;
+}
+.product-area .plus-2 {
+    left: 50%;
+    top: 40%;
+}
+.producer-avatar {
+    width: 60px;
+    height: 60px;
+    float: left;
+    background: url("../img/header.jpg") no-repeat center center;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    border-radius: 100px;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+.producer-desc {
+    width: 75%;
+    float: right;
+    font-size: 12px;
+    line-height: 150%;
+}
+.product-bg {
+    background-color: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.product-area .products {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+.product-1 img {
+    margin-top: 9%;
+    margin-left: 28%;
+    float: left;
+}
+.product-1 article {
+    width: 45%;
+    margin-top: 24%;
+    margin-right: 5%;
+    float: right;
+    color: #ffffff;
+}
+.products h4 {
+    font-size: 11px;
+    margin-bottom: 10%;
+}
+.products p {
+    font-size: 10px;
+    line-height: 150%;
+}
+.products>a {
+    position: absolute;
+    width: 5%;
+    top: 4%;
+    right: 5%;
+}
+.product-2 img {
+    margin-top: 26%;
+    margin-right: 26%;
+    float: right;
+}
+.product-2 article {
+    width: 45%;
+    margin-top: 15%;
+    margin-left: 3%;
+    float: left;
+    color: #ffffff;
+}
+.page-0 .g-logo {
+    width: 66%;
+    margin: 55% auto 2%;
+    position: relative;
+}
+.loading-progress {
+    width: 100%;
+    text-align: center;
+    height: 5%;
+    font-size: 27px;
 }
