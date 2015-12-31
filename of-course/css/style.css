@@ -1,0 +1,177 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+html, body {
+    width: 100%;
+    height: 100%;
+    font-family: 'Microsoft YaHei', 'Helvetica Neue', 'Luxi Sans', 'DejaVu Sans', Tahoma, 'Hiragino Sans GB', sans-serif;
+    font-size: 62.5%;
+}
+img {
+    display: block;
+}
+ul, ol {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+.m-container {
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+.banner {
+    width: 100%;
+    position: relative;
+}
+.banner-content {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+}
+.menu {
+    position: absolute;
+    width: 100%;
+    height: 60px;
+    top: 0;
+    left: 0;
+}
+.menu.menu-holder {
+    position: relative;
+}
+.menu.index-menu {
+    z-index: 3;
+}
+.banner-title {
+    margin: 0 auto;
+    padding-top: 16%;
+}
+.banner-title img {
+    margin: auto;
+    display: block;
+}
+.menu .w-logo {
+    display: block;
+    width: 150px;
+    margin-top: 10px;
+    margin-left: 1%;
+    float: left;
+}
+.menu .language {
+    height: 100%;
+    width: 54px;
+    float: right;
+    margin-right: 4%;
+    position: relative;
+}
+.language>a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+.language .flags {
+    display: block;
+    float: left;
+    width: 25px;
+    margin-top: 23px;
+    margin-left: 16px;
+}
+.language .select {
+    display: block;
+    float: right;
+    margin-top: 29px;
+}
+.language ul {
+    background: #ffffff;
+    width: 100%;
+    height: 120px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-left: 1px solid #bababa;
+    border-bottom: 1px solid #bababa;
+    border-right: 1px solid #bababa;
+    display: none;
+}
+.language ul li {
+    width: 100%;
+    height: 50%;
+}
+.language ul li a {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.language ul li a img {
+    width: 25px;
+    display: block;
+    margin: 0 auto;
+    padding-top: 23px;
+}
+.language:hover ul {
+    display: block;
+}
+.menu .sign-status {
+    float: right;
+    height: 100%;
+}
+ul.sign-status {
+
+}
+ul.sign-status li {
+    display: block;
+    float: left;
+    height: 100%;
+    padding: 0 8px;
+}
+ul.sign-status li a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    line-height: 60px;
+    color: #ffffff;
+    font-size: 2.2em;
+}
+div.sign-status {
+    display: none;
+}
+.menu .navi {
+    height: 60px;
+    float: right;
+    width: 468px;
+}
+.navi li {
+    float: left;
+    margin-right: 4%;
+    margin-left: 4%;
+    height: 60px;
+}
+.navi li a {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    line-height: 60px;
+    font-size: 2.5em;
+    color: #ffffff;
+    position: relative;
+    display: block;
+}
+.navi li a i {
+    width: 100%;
+    height: 2px;
+    background: #ffffff;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    display: none;
+}
+.navi li a.current i,
+.navi li:hover a i {
+    display: block;
+}
