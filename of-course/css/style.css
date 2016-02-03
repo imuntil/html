@@ -175,3 +175,122 @@ div.sign-status {
 .navi li:hover a i {
     display: block;
 }
+.next-arrow {
+    position: absolute;
+    bottom: 2%;
+    left: 50%;
+    width: 4.5%;
+}
+.content-1 {
+    width: 100%;
+    height: auto;
+    background-color: #ffffff;
+}
+.content-1 img {
+    width: 30%;
+    min-width: 300px;
+    margin: 0 auto;
+    padding: 6% 0 2% 0;
+}
+.content-1 p {
+    display: block;
+    width: 90%;
+    margin: 0 auto;
+    font-size: 1.6rem;
+    line-height: 180%;
+    text-indent: 2em;
+    padding-bottom: 5%;
+}
+.content-2 {
+    background: url("../img/index_bg.jpg") no-repeat top left #d9dada;
+    -webkit-background-size: 100%;
+    background-size: 100%;
+}
+.content-2 img {
+    width: 30%;
+    margin: 0 auto;
+    padding: 20% 0 4%;
+}
+.videos-area {
+    width: 100%;
+    overflow: hidden;
+
+}
+.videos-area ul {
+    width: 70%;
+    display: block;
+    margin: 0 auto;
+    padding: 4% 0;
+}
+.videos-area ul li {
+    width: 20%;
+    float: left;
+    margin: 0 2.5% 4% 2.5%;
+}
+.videos-area span {
+    position: relative;
+    display: block;
+}
+.videos-area span a {
+    position: absolute;
+    width: 25%;
+    top: 30%;
+    left: 37%;
+}
+.videos-area li b {
+    font-size: 1.4rem;
+    font-weight: normal;
+    padding: 3% 0;
+    display: block;
+}
+.videos-area li i {
+    font-style: normal;
+    color: #999;
+    font-size: 1.2rem;
+}
+.content-3 {
+    width: 100%;
+    background: url("../img/index_bg3.jpg") no-repeat top left #f1f1f1;
+    -webkit-background-size: 100%;
+    background-size: 100%;
+    overflow: hidden;
+}
+.content-3>img {
+    margin: 0 auto;
+    padding: 6% 0 3%;
+    width: 20%;
+}
+.content-3>p {
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-size: 1.6rem;
+    line-height: 1.8rem;
+}
+.content-3>ul {
+    display: block;
+    width: 80%;
+    margin: 0 auto;
+    padding: 4% 0 4% 0;
+}
+.content-3>ul li {
+    width: 25%;
+    float: left;
+    margin: 0 4% 3% 4%;
+}
+.content-3>ul li img {
+    width: 80%;
+    margin: 0 auto;
+}
+.content-3>ul li span {
+    font-weight: bold;
+    font-size: 2rem;
+    width: 100%;
+    text-align: center;
+    display: block;
+    margin: 6% 0;
+}
+.content-3>ul li p {
+    font-size: 1.4rem;
+    line-height: 2rem;
+}
