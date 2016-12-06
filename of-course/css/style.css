@@ -121,7 +121,7 @@ a {
     height: 100%;
 }
 ul.sign-status {
-
+    display: none;
 }
 ul.sign-status li {
     display: block;
@@ -139,7 +139,55 @@ ul.sign-status li a {
     font-size: 2.2em;
 }
 div.sign-status {
-    display: none;
+    /*display: none;*/
+    display: block;
+    width: 60px;
+    /*background: #000;*/
+    margin-right: 2%;
+    position: relative;
+}
+div.sign-status a{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+div.sign-status a i:first-child{
+    display: block;
+    float: left;
+    height: 36px;
+    width: 36px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    margin-left: 12px;
+    margin-top: 12px;
+}
+div.sign-status a i:last-child{
+    display: block;
+    float: right;
+    width: 8px;
+    margin-top: 26px;
+}
+div.sign-status ul{
+    position: absolute;
+    background: #ffffff;
+    top: 100%;
+    width: 200%;
+    border: 1px solid #bababa;
+}
+div.sign-status ul li {
+    margin: 2%;
+    width: 100%;
+    height: 32px;
+}
+div.sign-status ul li a {
+    color: #000;
+    font-size: 14px;
+    font-size: 1.4rem;
+    width: 75%;
+    float: right;
+    text-align: left;
+    line-height: 32px;
 }
 .menu .navi {
     height: 60px;
@@ -174,4 +222,11 @@ div.sign-status {
 .navi li a.current i,
 .navi li:hover a i {
     display: block;
+}
+.next-arrow {
+    display: block;
+    position: absolute;
+    bottom: 2%;
+    left: 50%;
+    width: 3%;
 }
