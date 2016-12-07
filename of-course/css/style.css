@@ -148,6 +148,14 @@ div.sign-status {
     margin-right: 2%;
     position: relative;
 }
+div.sign-status:hover ul {
+    display: block;
+    /*transform: scale(1, 1);*/
+    /*transition: transform 0.3s;*/
+}
+/*div.sign-status:hover ul li {*/
+    /*transform:scale(1, 1);*/
+/*}*/
 div.sign-status a{
     display: block;
     width: 100%;
@@ -171,11 +179,17 @@ div.sign-status a i:last-child{
     margin-top: 26px;
 }
 div.sign-status ul{
+    /*transform: scale(1, 0);*/
+    /*transform-origin: 50% 0 0;*/
+
     position: absolute;
     background: #ffffff;
     top: 100%;
     width: 200%;
     border: 1px solid #bababa;
+    display: none;
+
+    /*transition: transform 0.3s;*/
 }
 div.sign-status ul li {
     margin: 2%;
